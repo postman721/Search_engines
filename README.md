@@ -27,3 +27,16 @@ Install nodemon first to start dev mode.
     http://127.0.0.1:3000/
 
     http://127.0.0.1:3000/about
+
+##### Linux example: Running the executable
+
+                sudo apt install zip 
+                unzip Search\ engines-linux.zip 
+                chmod +x ./Search\ engines-linux
+                ./Search\ engines-linux
+
+Output on terminal will be: 
+
+                Express is Listening on port 3000.
+
+Now open a browser and go to:     http://127.0.0.1:3000/
