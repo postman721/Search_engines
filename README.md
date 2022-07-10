@@ -7,13 +7,19 @@
 
 ### On a working nodejs environment:
 
+Install dependencies: 
+
+        npm install express ejs
+
 Start application with: <b> node app.js </b>
 
 ##### DEV Mode startup:
 
 Install nodemon first to start dev mode. 
 
-    npm install nodemon --save-dev. Then execute: npm start
+    npm install nodemon --save-dev 
+ 
+ Then execute: npm start
 
  ##### ENDPOINTS    
  Valid application url values are: 
