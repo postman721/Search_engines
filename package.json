@@ -1,0 +1,28 @@
+{
+  "name": "Search engines",
+  "version": "1.0.0",
+  "description": "Seach engines on nodejs",
+  "bin": "app.js",
+  "pkg": {
+    "assets": [ "node_modules/**/*", "views/**/*" ]},
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "Search",
+    "engine",
+    "nodejs",
+    "app"
+  ],
+  "author": "JJ Posti <techtimejourney.net>",
+  "license": " APACHE LICENSE V2.0",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
